@@ -1,0 +1,16 @@
+1. User can have a role of admin
+2. An admin user can add/update other users (no destroy)
+3. Users can have a role of student
+4. A student has a responsible party (user)
+5. A user can have an address
+6. A student must have at least 1 valid insurance.
+    6a. if a student has more than 1 insurance, then one must be primary
+    6b. An insurance is valid if the expiration date is in the future
+7. An admin user can update/add insurance on a student
+8. A user can be responsible for more than one student
+9. A student can have a status of active or inactive.
+10. A student has subscription history (months paid)
+11. A student has promotion history (rank, date received)
+12. An admin user can update/create class schedule
+13. A student user can sign in (mark attendence) for a class
+14. A student user has basic information (address, dob, rank)
